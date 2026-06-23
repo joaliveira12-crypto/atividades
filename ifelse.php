@@ -1,8 +1,6 @@
 <?php 
-$idade = 10;
+$numero = 5;
+$numero++;
 
-if ($idade >= 18) {
-    echo "Voce é maior de idade!";
-}else {
-    echo "Voce e menor de idade!";    
-}
+echo"Esse número é: $numero";
+?>
